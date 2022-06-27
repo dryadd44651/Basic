@@ -55,7 +55,7 @@ Insert element E at front	        O(1)
 Insert element E at end	        O(N)
 
 
-
+Linked List is fundamental of tree and graphic
 
 
 ### Other linked list
@@ -63,5 +63,6 @@ Insert element E at end	        O(N)
 Doubly Linked List (each node stores the address of previous node as well)
    Tip: add a tail in end of doubly linked list for O(1) to access tail
 Circular Linked List (last node points to the first node)
+
 
 https://www.geeksforgeeks.org/applications-of-linked-list-data-structure/
