@@ -24,7 +24,11 @@ list1 = SLinkedList()
 
 Array: random access, fixed size
 
+Arrays store elements in contiguous memory locations
+
 linked list: traverse the node for acccess, dynamic link
+
+Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations
 
 Linked lists offer some important advantages over other linear data structures. Unlike arrays, they are a dynamic data structure, resizable at run-time. Also, the insertion and deletion operations are efficient and easily implemented.
 
@@ -51,10 +55,13 @@ Insert element E at front	        O(1)
 Insert element E at end	        O(N)
 
 
+
+
+
 ### Other linked list
 
 Doubly Linked List (each node stores the address of previous node as well)
-
+   Tip: add a tail in end of doubly linked list for O(1) to access tail
 Circular Linked List (last node points to the first node)
 
 https://www.geeksforgeeks.org/applications-of-linked-list-data-structure/
