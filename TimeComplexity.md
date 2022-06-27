@@ -22,7 +22,7 @@ When n is big enough.
 Coefficients and constant is meaningless.
 O(1)<O(logN)<O(N)<O(NlogN)<O(N^2)<O(2^N)<O(N!)
 
-
+![img](https://www.freecodecamp.org/news/content/images/2021/06/0_MPwgKd4lgXACfuNt.png)
 
 O(1)
 1+1
