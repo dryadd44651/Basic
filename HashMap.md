@@ -35,3 +35,25 @@ Quadratic probing, in which the interval between probes is increased by adding t
 (1,2,4,8,16)
 Double hashing, in which the interval between probes is computed by a *secondary hash function*.
 
+https://en.wikipedia.org/wiki/Hash_table
+
+https://www.geeksforgeeks.org/hashing-data-structure/?ref=lbp
+
+
+1. Two Sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashmap = {}
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap:
+                return [i, hashmap[complement]]
+            hashmap[nums[i]] = i
+```
+https://leetcode.com/problems/two-sum/solution/
