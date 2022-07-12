@@ -44,7 +44,7 @@ Well-known probe sequences include:
 Linear probing, in which the interval between probes is fixed (1,2,3,4) (2,4,6,8)
 
 Quadratic probing, in which the interval between probes is increased by adding the successive outputs of a quadratic polynomial to the value given by the original hash computation.
-(1,2,4,8,16)
+(1,4,9,16,25)
 
 Double hashing, in which the interval between probes is computed by a *secondary hash function*.
 
